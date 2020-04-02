@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap'); /*fonte de paragráfo e corpo */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); /* fonte do título da seção*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');  /* fonte do menu */
+
+body {
+    font-family: 'Sen', sans-serif;
+    text-align: justify;
+}
+
+/* formatação do menu */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    font-size: 15pt;
+    margin-left: 400px;
+}
+
+nav#menu li {
+    display: inline-block;
+    font-family: 'MontSerrat';
+    color: #FE2E9A;
+    background-color: #ffffff;
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: rgb(255, 212, 242);
+}
+
+nav#menu a {
+    color: #FE2E9A;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #FE2E9A;
+}
+/* fim da formatação do menu */
+
+h2, h1 {
+    font-family:  'Muli';
+    font-size: 20pt;
+    color: #DF0174;
+    text-align: center;
+}
+
+h3 {
+    color: #DF0174;
+    font-size: 16pt;
+    padding-top: 5px;
+}
+
+section#inicio {
+    display: inline-block;
+    height: 250px;
+    padding: 0px 0px 50px 0px;
+    margin-left: 200px;
+}
+
+section#inicio ul {
+    list-style: none;
+}
+
+section#inicio li {
+    display: inline-block;
+    font-family: 'Sen';
+    padding: 10px;
+}
+
+section#sobre-mim {
+    display: block;
+    height: 300px;
+    margin: 100px 100px 0px 100px;
+    padding: 10px;
+}
+
+section#carreira {
+    display: block;
+    height: 400px;
+    margin: 30px 100px 0px 100px;
+    padding: 15px;
+}
+
+section#carreira div {
+    padding: 20px;
+    font-size: 13pt;
+}
+
+section#competencias {
+    display: block;
+    height: 400px;
+    margin: 100px 100px 0px 100px;
+    padding: 10px;
+}
+
+section#competencias ul {
+    display: inline-block;
+    list-style: square;
+    margin-left: 170px;
+}
+
+section#competencias li {
+    font-size: 16pt;
+    padding: 10px;
+}
+
+section#conquistas {
+    display: block;
+    height: 500px;
+    margin: 30px 100px 0px 100px;
+    padding: 10px;
+}
+
+section#conquistas ul {
+    list-style: square;
+    margin-left: 100px;
+}
+
+section#conquistas li {
+    display: inline-block;
+    padding: 12px;
+}
+
+ul#contato {
+    list-style: none;
+}
+
+ul#contato li {
+    display: inline-block;
+}
+
+footer#rodape {
+    margin: 100px 100px 0px 100px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    background-color: #F781BE;
+}
